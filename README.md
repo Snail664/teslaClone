@@ -1,6 +1,6 @@
 ## View Deployed App
 
-Visit http://Snail664.github.io/teslaClone/
+Visit http://www.chiraaganand.com/teslaClone/
 
 ## About
 
