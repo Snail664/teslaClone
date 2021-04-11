@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Gotham;
+  src: url("./Gotham Medium.otf");
+}
+
+.floatingDetails {
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  margin-top: 20vh;
+  width: 100%;
+  height: 200px;
+  z-index: 3;
+}
+
+.details__title {
+  text-align: center;
+  font-family: "Gotham", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 40px;
+  color: #393c41;
+}
+
+.details__subTitle {
+  color: #5c5e62;
+  font-size: 14px;
+  font-family: "Gotham", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin-top: 2px;
+}
+
+.subTitle__left {
+  display: inline;
+  color: #5c5e62;
+}
+
+.subTitle__right {
+  display: inline;
+  text-decoration: underline;
+  color: #5c5e62;
+  transition: color 0.2s ease-in;
+}
+
+.details__subTitleLink:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.details__footer {
+  margin-top: 340px;
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
+}
+
+.buttonOne {
+  color: white;
+  font-family: "Gotham", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 12;
+  font-weight: 400;
+  height: 40px;
+  width: 255px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  outline: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.shifted {
+  margin-left: 130px;
+}
+
+.buttonTwo {
+  color: black;
+  font-family: "Gotham", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 12;
+  font-weight: 400;
+  height: 40px;
+  width: 260px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  outline: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.clickable {
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.home__imageTop {
+  object-fit: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.home__image {
+  object-fit: cover;
+  position: relative;
+  margin-top: -4px;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+html,
+body {
+  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(100vh);
+}
+
+.modely {
+  font-size: xx-large;
+  text-align: center;
+  z-index: 100;
+}
