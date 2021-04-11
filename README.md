@@ -1,3 +1,11 @@
+## View Deployed App
+
+Visit http://Snail664.github.io/teslaClone/
+
+## About
+
+Frontend clone of Tesla's homepage
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
