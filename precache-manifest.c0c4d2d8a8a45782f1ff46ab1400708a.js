@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca19a08f14bb37dbb8ec87a083fd3643",
+    "revision": "f447327d7750a650817291d2f969d650",
     "url": "/teslaClone/index.html"
   },
   {
